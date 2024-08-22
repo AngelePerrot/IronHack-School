@@ -9,8 +9,9 @@
     <!-- Navbar & Head Image -->
     <div id="container">
       <nav id="topnav">
-        <a href="index.html">HOME</a> | <a href="about.html">ABOUT US</a> |
-        <a href="menu.html">MENU</a> |
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a> |
+        <a href="menu.html">MENU</a> 
         <a href="contact.html">CONTACT US</a>
       </nav>
 
@@ -37,36 +38,78 @@
         JavaScript- that they need to grow as healthy developers.
       </p>
     </div>
+
+    <!-- Insert your Food -->
+    <div class="listfood">
+    <h3>Our food</h3>
     <ul>
-      <li>first item</li>
-      <li>second item</li>
-      <li>third item</li>
+      <li>
+        Our coffee
+        <ol>
+          <li>Cafe Latte</li>
+          <li>Americano</li>
+          <li>Cappuccino</li>
+        </ol>
+      </li>
+
+      <li>
+        Our teas
+        <ol>
+          <li>Earl Grey</li>
+          <li>English Breakfast</li>
+          <li>Herb Tea</li>
+        </ol>
+      </li>
     </ul>
+  </div>    
 
     <!-- Table Content -->
-    <div class="tableContent">
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Bootcamp</th>
-          <th>City</th>
-        </tr>
-        <tr>
-          <td>Jose Perez</td>
-          <td>FullStack WebDev</td>
-          <td>Madrid</td>
-        </tr>
-        <tr>
-          <td>Michael Smith</td>
-          <td>FrontEnd WebDev</td>
-          <td>Barcelona</td>
-        </tr>
-        <tr>
-          <td>Ariel Quinones</td>
-          <td>MasterChef WebDev</td>
-          <td>Miami</td>
-        </tr>
-      </table>
+      <div class="tableContent">
+        <table>
+          <tr>
+            <th>Bagel</th>
+            <th>Ingredient</th>
+          </tr>
+          <tr>
+            <td>Lox Biggie</td>
+            <td>Salmon, cream cheese, pickles onion</td>
+          </tr>
+          <tr>
+            <td>Veggie Mix</td>
+            <td>Hummus, avocado, pickles carrot</td>
+          </tr>
+          <tr>
+            <td>Chicken Pro</td>
+            <td>Fried Chicken breast, tomato, mozzarella, pesto</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Insert your reservations form here -->
+      <h3>Reservations here!</h3>
+      <label>
+        Reservation for:
+        <input type="text" name="name" value="Your name" />
+      </label>
+       
+      <label>
+        Meal:
+        <select name="meal">
+          <option value="breakfast">Breakfast</option>
+          <option value="tea-time">Tea Time</option>
+        </select>
+      </label>
+       
+      <label>
+        How many people?
+        <select name="how-many">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </label>
+       
+      <button type="submit">Submit Reservation</button>
     </div>
 
     <!-- Form Content -->
@@ -82,9 +125,22 @@
       </fieldset>
     </form>
 
+    <label for="menu">Choose an option:</label>
+    <select id="menu" name="menu">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        <option value="option4">Option 4</option>
+        <option value="option5">Option 5</option>
+    </select>
+    <p>
+      We are open every day of the week from <time>8:00</time> to <time>22:00</time>
+    </p>
     <!-- Footer Content -->
     <footer>
       <p class="love" style="text-align: center">Made with love by Ironhack</p>
-    </footer>
+      <!-- ... -->
+    <a href="mailto:breakfast@ironhack.com">Contact Us</a>
+  </footer>
   </body>
 </html>

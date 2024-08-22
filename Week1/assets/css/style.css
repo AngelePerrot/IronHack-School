@@ -2,13 +2,13 @@
 
 body,
 html {
-  background-color: blue;
+  background-color: #9fd3a8;
   color: white;
 }
 
 table {
-  background-color: white;
-  color: black;
+  background-color: rgb(46, 224, 218);
+  color: rgb(250, 250, 250);
   margin: 50px 10px 50px 10px;
   width: 450px;
   height: 200px;
@@ -20,7 +20,7 @@ table {
 
 #content h1 {
   font-size: 40px;
-  color: rgb(169, 249, 249);
+  color: rgb(255, 255, 255);
 }
 
 #topnav {
@@ -55,4 +55,16 @@ a {
   align-items: center;
   max-width: 400px;
   margin: auto;
+}
+
+.listfood {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-top: 50px;
 }
