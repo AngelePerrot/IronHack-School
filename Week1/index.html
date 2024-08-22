@@ -3,9 +3,10 @@
   <head>
     <title>The HTML5 Breakfast Site</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- Navbar & Head Image -->
     <div id="container">
       <nav id="topnav">
         <a href="index.html">HOME</a> | <a href="about.html">ABOUT US</a> |
@@ -23,56 +24,67 @@
           <figcaption>powered by brekkie.</figcaption>
         </figure>
       </section>
-      <figcaption>powered by brekkie.</figcaption>
-    </figure>
-  </div>
-  <p> Our commitment is to use impeccable sourcing and quality ingredients to help
-    you code. An ongoing collaboration between the classroom staff and the
-    development team allows us to iterate our content and give our students the
-    coding 'fruits and vegetables' -mainly made of JavaScript- that they need to
-    grow as healthy developers.</p>
+    </div>
+
+    <!-- Paragraph Content -->
+    <div class="p-content">
+      <p>
+        Our commitment is to use impeccable sourcing and quality ingredients to
+        help you code. An ongoing collaboration between the classroom staff and
+        the development team allows us to iterate our content and give our
+        students the coding
+        <span class="fruit">'fruits and vegetables'</span> -mainly made of
+        JavaScript- that they need to grow as healthy developers.
+      </p>
+    </div>
     <ul>
       <li>first item</li>
       <li>second item</li>
       <li>third item</li>
     </ul>
 
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Bootcamp</th>
-        <th>City</th>
-      </tr>
-      <tr>
-        <td>Jose Perez</td>
-        <td>FullStack WebDev</td>
-        <td>Madrid</td>
-      </tr>
-      <tr>
-        <td>Michael Smith</td>
-        <td>FrontEnd WebDev</td>
-        <td>Barcelona</td>
-      </tr>
-      <tr>
-        <td>Ariel Quinones</td>
-        <td>MasterChef WebDev</td>
-        <td>Miami</td>
-      </tr>
-    </table>
+    <!-- Table Content -->
+    <div class="tableContent">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Bootcamp</th>
+          <th>City</th>
+        </tr>
+        <tr>
+          <td>Jose Perez</td>
+          <td>FullStack WebDev</td>
+          <td>Madrid</td>
+        </tr>
+        <tr>
+          <td>Michael Smith</td>
+          <td>FrontEnd WebDev</td>
+          <td>Barcelona</td>
+        </tr>
+        <tr>
+          <td>Ariel Quinones</td>
+          <td>MasterChef WebDev</td>
+          <td>Miami</td>
+        </tr>
+      </table>
+    </div>
 
+    <!-- Form Content -->
     <form action="" method="post">
       <label for="name">Name:</label>
       <input id="name" type="text" />
       <button type="submit">Save</button>
     </form>
-    
+
     <form action="/users" method="post">
       <fieldset>
         <input type="radio" id="radio" /> <label for="radio">Click me</label>
       </fieldset>
     </form>
-        <p class="love">Made with love by Ironhack</p>
-      </footer>
-    </div>
+
+    <!-- Footer Content -->
+    <footer>
+      <p class="love" style="text-align: center">Made with love by Ironhack</p>
+    </footer>
   </body>
 </html>

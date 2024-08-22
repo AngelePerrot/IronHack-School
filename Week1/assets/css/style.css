@@ -1,1 +1,58 @@
+/* Custom styles */
 
+body,
+html {
+  background-color: blue;
+  color: white;
+}
+
+table {
+  background-color: white;
+  color: black;
+  margin: 50px 10px 50px 10px;
+  width: 450px;
+  height: 200px;
+}
+
+#content {
+  text-align: center;
+}
+
+#content h1 {
+  font-size: 40px;
+  color: rgb(169, 249, 249);
+}
+
+#topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  font-size: 21px;
+  font-weight: 900;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.p-content {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+}
+
+.fruit {
+  font-size: 24px;
+  color: rgb(169, 249, 249);
+}
+
+.tableContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
