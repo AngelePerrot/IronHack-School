@@ -1,0 +1,37 @@
+body {
+  background-color: lightsalmon;
+}
+
+.container {
+  background-color: rgb(239, 145, 237);
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row; /* row-reverse, column, column-revers */
+  /* row-gap: 1em; column-gap:1em */
+  gap: 1em; /* Add some gap between the items - It will take default font size of 16px */
+  justify-content: center; /* justify the content according to the flex direction */
+  height: 100vh; /* vh means viewport height - 80*/
+  flex-wrap: wrap; /* nowrap is default - to move the content on next line / wrap it */
+  align-content: flex-start; /* shows all the items in a center/flex-start/flex-end position when you have
+  multiple lines i.e. wrapping in next line */
+  /*align-items: center; /* vertically center when you have one line of content/items */
+  /*flex-flow: row wrap; /* Shorthand property for setting the flex direction and wrap together */
+}
+.item {
+  border: 2px solid black;
+  height: 92px;
+  width: 92px;
+  background-color: thistle;
+  font-size: 1.5em;
+}
+
+.item-special {
+  align-self: center;
+  order: -1; /*-1 mean to place the item at the first position in your container*/
+  flex-grow: 5;
+}
+
+.medium-priority {
+  order: 9;
+  flex-shrink: 5;
+}

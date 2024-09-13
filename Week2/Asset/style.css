@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+}
+.container {
+  color: red;
+}
+
+/*for mobile devices any width less than 455px*/
+@media only screen and (max-width: 455px) {
+  body {
+    background-color: lightcoral;
+  }
+  .container {
+    color: green;
+  }
+}
+
+/*for 460px - 599px*/
+@media (min-width: 456px) and (max-width: 599px) {
+  body {
+    background-color: rgb(234, 171, 229);
+  }
+  .container {
+    color: blue;
+  }
+}
+
+/*for tablet screen size - between the range 600.1024*/
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+    background-color: lightskyblue;
+  }
+}
